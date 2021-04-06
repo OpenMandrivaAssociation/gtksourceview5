@@ -76,6 +76,8 @@ GtkSourceView development files
 %files -f %{oname}-%{api}.lang
 %doc AUTHORS NEWS README.md
 %{_datadir}/gtksourceview-%{api}
+%{_iconsdir}/hicolor/scalable/actions/completion*
+%{_iconsdir}/hicolor/scalable/actions/lang*
 
 %files -n %{libname} 
 %{_libdir}/libgtksourceview-%{api}.so.%{major}*
