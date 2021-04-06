@@ -21,7 +21,7 @@ BuildRequires:  cmake
 BuildRequires:  meson
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(gobject-introspection-1.0)
-BuildRequires:	pkgconfig(gtk+-4.0)
+BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(gtk-doc)
 BuildRequires:	pkgconfig(libxml-2.0)
 BuildRequires:	pkgconfig(gio-2.0) >= 2.28.0
