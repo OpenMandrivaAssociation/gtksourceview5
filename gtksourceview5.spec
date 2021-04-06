@@ -1,7 +1,7 @@
 %define url_ver %(echo %{version}|cut -d. -f1,2)
 
 %define oname	gtksourceview
-%define api	4
+%define api	5
 %define major	0
 %define libname	%mklibname %{oname}- %{api} %{major}
 %define girname	%mklibname %{oname}-gir %{api}
@@ -10,9 +10,9 @@
 %define _disable_rebuild_configure 1
 
 Summary:	Source code viewing library
-Name:		gtksourceview
-Version: 	4.8.1
-Release:	2
+Name:		gtksourceview5
+Version: 	5.0.0
+Release:	1
 License:	GPLv2+
 Group:		Editors
 Url:		http://gtksourceview.sourceforge.net/
