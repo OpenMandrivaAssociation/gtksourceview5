@@ -12,7 +12,7 @@
 Summary:	Source code viewing library
 Name:		gtksourceview5
 Version: 	5.8.0
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Editors
 Url:		http://gtksourceview.sourceforge.net/
