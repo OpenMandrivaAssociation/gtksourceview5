@@ -11,7 +11,7 @@
 
 Summary:	Source code viewing library
 Name:		gtksourceview5
-Version: 	5.16.0
+Version: 	5.17.1
 Release:	1
 License:	GPLv2+
 Group:		Editors
