@@ -11,7 +11,7 @@
 
 Summary:	Source code viewing library
 Name:		gtksourceview5
-Version: 	5.18.0
+Version: 	5.20.0
 Release:	1
 License:	GPLv2+
 Group:		Editors
@@ -24,7 +24,7 @@ BuildRequires:	pkgconfig(gobject-introspection-1.0)
 BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(gtk-doc)
 BuildRequires:  pkgconfig(libpcre2-8)
-BuildRequires:	pkgconfig(libxml-2.0)
+BuildRequires:	pkgconfig(libxml-2.0) >= 2.15.2
 BuildRequires:	pkgconfig(gio-2.0) >= 2.28.0
 BuildRequires:	pkgconfig(vapigen)
 
